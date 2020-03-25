@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/font.css">
+    <style>
+        body{
+    background-image: url(../IMG/web-homepage-teaser-mobilesize-defence-CyberSecurity%202.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'PT Serif', serif;
+    overflow-x: hidden;
+            
+            
+            
+        }
+    
+    </style>
+    
+</head>
+
+<body>
+       <div class="fondo">
+        <form action="a.v2523@gmail.com" name="formulario"  class="formulario" onsubmit="return validateForm()" method="post">
+            <h1 class="form__titulo">Contáctenos</h1>
+                <input type="text"  name="nombre" class="input-28">
+                <label id="nombre"  class="formulario_label">Nombre</label>
+                <input type="text" id="correo"  name="correo" class="input-28" pattern="[a-z.]*[@]*[a-z.]*.com" >
+                
+                <label id="correo"  class="formulario_label" >Correo</label>
+                <input type="text" onkeypress='return restrictAlphabets(event)'  name="telefono" class="input-28" >
+                <label id="telefono" class="formulario_label">Telefono</label>
+                <input type="text"  name="mensajes" class="input-28" >
+                <label id="mensajes" class="formulario_label">Mensaje</label>
+               
+                <input type="submit" class="formulario__submit" onclick="stringlength(document.formulario.nombre,3,8)" >
+        </form>
+    </div>
+        
+        <script src="../JS/form.js"></script>
+        
+</body>
+</html>
