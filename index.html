@@ -4,7 +4,13 @@
     <head>
         <meta charset="utf-8">
         <title></title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="CSS/font.css">
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+
+
     </head>
     
     <body>
@@ -13,15 +19,15 @@
             
         <div class="header">
             
-            <div class="logo"><a href="index.html"><img src="IMG/Captura%20de%20pantalla%20(73).png"></a></div>
+            <div class="logo"><a href="/index.html"><img src="IMG/Captura%20de%20pantalla%20(73).png"></a></div>
             
             <div class="thin-bar"></div>
             <div class="thick-bar"></div>
             
             <div class="nav">
                 <ul>
-                    <li class="li-menu"><a href="HTML/quienes_somos.html">Nosotros</a></li>
-                    <li class="li-menu"><a href="HTML/socios.html">Nuestros Socios</a></li>
+                    <li><a href="HTML/quienes_somos.html">Nosotros</a></li>
+                    <li><a href="HTML/socios.html">Nuestros Socios</a></li>
                     <li class="dropdown">
                         <a class="dropbtn">Áreas de Negocio</a>
                             <div class="dropdown-content">
@@ -31,17 +37,21 @@
                             <a href="HTML/masaero.html">Aeronáutica y Espacio</a>
                             <a href="HTML/industria.html">Industria</a>
                             </div>
-                    <li class="li-menu"><a href="HTML/formulario2.html">Contacto</a></li>
+                    <li><a href="HTML/formulario2.html">Contacto</a></li>
                 </ul>
             </div>   
             
         </div>
         
+        <div class="abuscontainer">
+            
+            <div class="abusbody">
+                
         <div class="slider-gallery">
-            <img class="Slider" src="IMG/1200px-Flag_of_the_Ghost_Brigade.svg.png">
-            <img class="Slider" src="IMG/crowdstrike_gfx.jpg">
-            <img class="Slider" src="IMG/logo.png">
-            <img class="Slider" src="IMG/crowdstrike_gfx.jpg">
+            <img class="Slider" src="IMG/serv-analytics.jpg">
+            <img class="Slider" src="IMG/serv-services2.jpg">
+            <img class="Slider" src="IMG/serv-solutions.jpg">
+            <img class="Slider" src="IMG/serv-services.jpeg">
         </div>
         
             <button class="left" onclick="plusDivs(-1)">&#10094;</button>
@@ -81,68 +91,64 @@
                 setTimeout(carousel, 8000); 
             }
         </script>
+                
+            </div>
             
-                <div class="productos">
-   <h1 id="productos">Productos y Servicios</h1>
-    </div>
-    <div class="galeria">
-        <div class="imagen">
-            <img src="IMG/aero.jpg">
-            <div class="descubre">
-                Aeronautica & Espacio
-                <div class="enlace">
-                   <a href="HTML/masaero.html">> Descubre Más</a>
-                </div>
-            </div>
+            <div class="titulo-container"><h1>Productos y Servicios</h1></div> 
+            
         </div>
         
-        <div class="imagen">
-            <img src="IMG/Transportation_clean.jpg">
-            <div class="descubre">
-                Transporte
-                <div class="enlace">
-                    <a href="HTML/mastransporte.html">> Descubre Más</a>
-                </div>
+        <div class="galeria-container">
+            
+            <div class="gal-img-container">
+                    <img src="IMG/wp-aeronautics2.jpg" alt="Avatar" class="gal-img-image">
+                        <div class="gal-img-text">
+                            <h3>Aeronáutica y Espacio</h3>
+                            <a href="HTML/masaero.html">> Descubre más</a>
+                        </div>
             </div>
+            
+            <div class="gal-img-container">
+                    <img src="IMG/tokiotrennoche.jpg" alt="Avatar" class="gal-img-image">
+                        <div class="gal-img-text">
+                            <h3>Transporte</h3>
+                            <a href="HTML/mastransporte.html">> Descubre más</a>
+                        </div>
+            </div>
+            
+            <div class="gal-img2-container">
+                    <img src="IMG/wp-defence.jpg" alt="Avatar" class="gal-img2-image">
+                        <div class="gal-img2-text">
+                            <h3>Defensa y Gobiernos</h3>
+                            <a href="HTML/defensa.html">> Descubre más</a>
+                        </div>
+            </div>
+            
+            <div class="gal-img-container">
+                    <img src="IMG/wp-energy2.jpg" alt="Avatar" class="gal-img-image">
+                        <div class="gal-img-text">
+                            <h3>Energía</h3>
+                            <a href="HTML/energia.html">> Descubre más</a>
+                        </div>
+            </div>
+            
+            <div class="gal-img-container">
+                    <img src="IMG/wp-industry2.jpg" alt="Avatar" class="gal-img-image">
+                        <div class="gal-img-text">
+                            <h3>Industria</h3>
+                            <a href="HTML/industria.html">> Descubre más</a>
+                        </div>
+            </div>
+            
+        </div>
+            
+        <div class="abuscontainer">
+            <div class="titulo-container"><h1>Últimas Noticias</h1></div>
         </div>
         
-        <div class="defensa">
-            <img src="IMG/defence_clean.jpg">
-            <div class="defensa_descubre">
-                    Defensa & Gobiernos
-                <div class="defensa_enlace">
-                    <a href="HTML/defensa.html">> Descubre Más</a>
-                </div>
-            </div>
-        </div>
-        
-        
-        
-        <div class="imagen">
-            <img src="IMG/thumbnail-ics-security-risk-analysis.jpg">
-            <div class="descubre">
-                Industria
-                <div class="enlace">
-                   <a href="HTML/industria.html">> Descubre Más</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="imagen">
-            <img src="IMG/AirbusCyber_Energy_Nuclear.jpg">
-            <div class="descubre">
-                Energia & utilidades
-                <div class="enlace">
-                    <a href="HTML/energia.html">> Descubre Más</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="noticias">
-   <h1 id="noticias">Últimas Noticias</h1>
-   <div class="fichas">
-  <div class="example-1 card">
+        <div class="noticias-container">
+        <div class="fichas">
+        <div class="example-1 card">
     <div class="wrapper">
       <div class="date">
         <span class="day">12</span>
@@ -159,8 +165,11 @@
       </div>
     </div>
   </div>
- 
-  <div class="example-3 card">
+</div>
+            
+                    
+            <div class="fichas">
+         <div class="example-3 card">
     <div class="wrapper">
       <div class="date">
         <span class="day">17</span>
@@ -177,7 +186,12 @@
       </div>
     </div>
   </div>
-  
+            </div>
+            
+            
+            
+            <div class="fichas">
+            
   <div class="example-4 card">
     <div class="wrapper">
       <div class="date">
@@ -195,34 +209,40 @@
       </div>
     </div>
   </div>
-  
-  <div class="siguenos">
-   <h1 id="siguenos">Follow us</h1>
-    </div>
-  <section id="redes-s">
-				<div class="twitter"><a href="https://twitter.com/hashtag/tweeter"></a></div>
-				<div class="linkedin"><a href="https://es.linkedin.com/"></a></div>
-				<div class="contacto"><a href="HTML/formulario.html"></a></div>
-       </section>
-</div>
-       
+    
+            </div>                
+                                            
         
-    </div>
-    
-    
-    
-
-<footer>
-   <div class="footer">
-       <section id="eventos">
+        
+        </div>
+        
+        <div class="abuscontainer">
+            <div class="titulo-container"><h1>Follow us</h1></div>
+            
+            <div class="fu-icon-container">
+                    <a href="https://es.linkedin.com/"><img src="IMG/icon-linkedin.jpg" alt="Avatar" class="fu-icon-image"></a>
+            </div>
+            
+            <div class="fu-icon-container">
+                    <a href="https://twitter.com/explore"><img src="IMG/icon-twitter.png" alt="Avatar" class="fu-icon-image"></a>
+            </div>
+            
+            <div class="fu-icon-container">
+                    <a href="https://www.instagram.com/?hl=es"><img src="IMG/icon-instagram.png" alt="Avatar" class="fu-icon-image"></a>
+            </div>
+        </div>
+            
+        </div>
+        
+        <footer>
+        <div class="footer">
+            <section id="eventos">
 			
-				
 				<h3>Eventos</h3>
 					<ul class="menu_liks">
-                        <li class="down"><a href="HTML/noticias.html">Noticias</a></li>
-                        <li class="down"><a href="HTML/eventos.html">Eventos</a></li>
+	                    <li class="down"><a href="HTML/noticias.html">Noticias</a></li>
+	                    <li class="down"><a href="HTML/eventos.html">Eventos</a></li>
 	                </ul>
-				
 				
 			</section>
 			
@@ -230,8 +250,8 @@
 				
 				<h3>Links</h3>
 					<ul class="menu_liks">
-                        <li class="down"><a href="https://www.youtube.com/watch?v=KiuTyXehW-8">Youtube</a></li>
-                        <li class="down"><a href="https://www.instagram.com/?hl=es">Instagram</a></li>
+	                    <li class="down"><a href="https://www.youtube.com/watch?v=gyr9gdpDqI4&list=PLc_rOIiwd3O_h6YhsmYPt5rdPhMtQV9yK">Youtube</a></li>
+	                    <li class="down"><a href="">Instagram</a></li>
 	                </ul>
 				
 			</section>
@@ -240,32 +260,25 @@
 				
 				<h3>Carreras</h3>
 					<ul class="menu_liks">
-                        <li class="down"><a href="HTML/trabajos.html">Trabajos</a></li>
-                        <li class="down"><a href="HTML/trabajos.html">Carreras</a></li>
+	                    <li class="down"><a href="HTML/trabajos.html">Trabajos</a></li>
+	                    <li class="down"><a href="HTML/trabajos.html">Carreras</a></li>
 	                </ul>
 				
 			</section>
-       <div class="foto_logo">
-           <a href=""></a>
-       </div>
+            
+            <div class="foto_logo">
+                <a href="index.html"></a>
+            </div>
        
-   </div>
+        </div>
    
-   <div class="down_footer">
-       <div class="terminos">
-           <a href="HTML/codigo1.html">Términos y Condiciones</a>
-       </div>
-        <div class="uso">
-           <a href="">Uso de Condiciones</a>
-       </div>
-        <div class="logo2">
-           <a href="index.html">© Sybilla 2020</a>
-       </div>
-   </div>
-   
-    
-    
-</footer>
-    </div>
+        <div class="down_footer">
+                <div class="logo2">
+                <a href="index.html">© Sybilla 2020</a>
+            </div>
+        </div>
+        </footer>
         
     </body>
+    
+</html>
